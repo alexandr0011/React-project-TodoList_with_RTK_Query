@@ -11,4 +11,4 @@
 - Pagination
 
 ## Demo:
-https://alexandr0011.github.io/JS_project_installation_of_windows/
+https://react-project-todo-list-with-rtk-query.vercel.app
