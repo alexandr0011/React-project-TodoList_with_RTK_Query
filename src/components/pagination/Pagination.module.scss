@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+
+  input {
+    display: none;
+  }
+
+  label {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #d9d9d9;
+    margin: 0px 3px 3px;
+    transition: 0.2s;
+    cursor: pointer;
+  }
+
+  input:checked + label {
+    transition: 0.2s;
+    background: rgba(5, 118, 255, 1);
+  }
+}
